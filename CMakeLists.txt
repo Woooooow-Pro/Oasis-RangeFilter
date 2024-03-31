@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)     # Require C++17 support.
 project(Oasis
         VERSION 2023.11
         DESCRIPTION "Oasis: an Optimal Disjoint Segmented Learned Range Filter"
-        HOMEPAGE_URL "https://github.com/Woooooow-Pro/oasis-range-filter"
+        HOMEPAGE_URL "https://github.com/Woooooow-Pro/Oasis-RangeFilter"
         LANGUAGES C CXX
         )
 
