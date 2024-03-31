@@ -1,0 +1,6 @@
+.vscode/
+build/
+benchmark/workloads/SOSD/
+
+benchmark/in_mem_data/
+benchmark/in_mem_result/

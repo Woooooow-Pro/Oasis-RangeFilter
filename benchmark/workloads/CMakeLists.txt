@@ -1,0 +1,1 @@
+add_executable(workload_gen workload_gen.cc)
