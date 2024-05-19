@@ -1,4 +1,4 @@
-# Oasis: An Optimal Disjoint Segmented Learned Range Filter
+# Oasis: An Optimal Disjoint Segmented Learned Range Filter [[paper](https://www.vldb.org/pvldb/vol17/p1911-luo.pdf)]
 
 We introduce Oasis (<u>**O**</u>ptim<u>**a**</u>l Di<u>**s**</u>jo<u>**i**</u>nt <u>**S**</u>egmented Learned Range Filter), a novel learned range filter that divides the key space into disjointed intervals by excluding large empty ranges explicitly and optimally maps those unpruned intervals into a compressed bitmap. Besides, Oasis can identify its optimal configuration through a theoretical analysis. To enhance the versatility of Oasis, we further propose Oasis+, which integrates the design space of both learned and non-learned filters, delivering robust performance across a wide range of workloads. We evaluate the performance of both Oasis and Oasis+, when integrated into the key-value system RocksDB, using a diverse set of real-world and synthetic datasets and workloads. In RocksDB, Oasis and Oasis+ improve the performance by up to 1.4× and 6.2× when compared to state-of-the-art learned and non-learned range filters.
 
